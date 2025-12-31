@@ -34,7 +34,7 @@ Download the TextBee.dev APK from [https://textbee.dev](https://textbee.dev) and
 
 <!-- one-click copy wrapper -->
 <div align="right">
-  <button onclick="copyCode()">📋 Copy</button>
+  <button onclick="copyCode()">Copy</button>
 </div>
 
 <!-- the actual code block -->
