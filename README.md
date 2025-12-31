@@ -20,7 +20,7 @@ Download the TextBee.dev APK from [https://textbee.dev](https://textbee.dev) and
 2. Tap **"Generate API Key / Get Started"**
 3. Copy the API key
 
-![Generate](https://raw.githubusercontent.com/dhruvil0203/sms-gateway/main/public/Generate.jpeg)
+![Generate QR](https://raw.githubusercontent.com/dhruvil0203/sms-gateway/main/public/Generate.jpeg)
 
 ### 3. Register (Optional)
 
