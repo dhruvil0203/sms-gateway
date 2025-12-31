@@ -1,5 +1,5 @@
 {
-  "name": "sms-gateway",
+  "name": "sms-dispatch",
   "version": "1.0.1",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
     "sms",
     "gateway",
     "sms-gateway",
+    "sms-dispatch",
     "messaging",
     "text-messages",
     "sms-api",
