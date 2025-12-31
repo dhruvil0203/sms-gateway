@@ -1,0 +1,28 @@
+{
+  "name": "sms-gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sms",
+    "gateway",
+    "sms-gateway",
+    "messaging",
+    "text-messages",
+    "sms-api",
+    "bulk-sms",
+    "twilio",
+    "vonage",
+    "plivo",
+    "notification",
+    "nodejs"
+  ],
+  "author": "Dhruvil Mistry",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
