@@ -33,9 +33,6 @@ Download the TextBee.dev APK from [https://textbee.dev](https://textbee.dev) and
 ## Usage
 
 <!-- one-click copy wrapper -->
-<div align="right">
-  <button onclick="copyCode()">Copy</button>
-</div>
 
 <!-- the actual code block -->
 
@@ -84,12 +81,4 @@ TEXTBEE_DEVICE=your_device_id_here
 
 ---
 
-Start sending SMS in minutes 📱✉️
-
-<!-- copy helper -->
-<script>
-function copyCode() {
-  const code = document.querySelector('pre code').textContent;
-  navigator.clipboard.writeText(code).then(() => alert('Code copied!'));
-}
-</script>
+Start sending SMS in Mili-Seconds 📱✉️
