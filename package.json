@@ -1,6 +1,6 @@
 {
   "name": "@dhruvil02/sms-gateway",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tiny ESM wrapper for TextBee SMS API",
   "type": "module",
   "main": "index.js",
