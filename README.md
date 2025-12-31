@@ -1,4 +1,4 @@
-# TextBee SMS Gateway
+# TextBee SMS Dispatch
 
 Send SMS messages programmatically using your Android phone as a gateway.
 
