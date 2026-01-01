@@ -7,7 +7,7 @@ Send SMS messages programmatically using your Android phone as a gateway with **
 
 ## ✨ What's New in v1.1
 
-- 🎉 **47 Ready-Made Templates** - Birthday wishes, OTP, appointments, promotions & more!
+- 🎉 **Almost 50 Ready-Made Templates** - Birthday wishes, OTP, appointments, promotions & more!
 - 🚀 **Simple to Use** - Just provide template name and variables
 - 🔄 **Fully Backward Compatible** - Old code still works perfectly
 - 💡 **Time Saver** - No need to write repetitive messages
