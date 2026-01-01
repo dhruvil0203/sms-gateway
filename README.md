@@ -17,7 +17,7 @@ Download the TextBee.dev APK from [https://textbee.dev](https://textbee.dev) and
 ### 2. Generate API Key
 
 1. Open the TextBee app
-2. Tap **“Generate API Key / Get Started”**
+2. Tap **"Generate API Key / Get Started"**
 3. Copy the API key
 
 ![Generate QR](https://raw.githubusercontent.com/dhruvil0203/sms-gateway/main/public/Generate.jpeg)
@@ -26,28 +26,36 @@ Download the TextBee.dev APK from [https://textbee.dev](https://textbee.dev) and
 
 - Enter a **Device ID** (optional—auto-assigned if blank)
 - Paste your **API Key**
-- Tap **“UPDATE”**
+- Tap **"UPDATE"**
 
 ![Register](https://raw.githubusercontent.com/dhruvil0203/sms-gateway/main/public/Register.jpeg)
 
+## ⚠️ Important Warnings
+
+- **The TextBee app MUST remain installed** on your Android device for the service to work
+- **Uninstalling the app will break the SMS functionality** immediately
+- **Keep the app running** in the background
+- **Stable internet connection required** on your Android device
+- **Active SIM card required** to send SMS messages
+
 ## Usage
 
-<!-- one-click copy wrapper -->
-
-<!-- the actual code block -->
-
 ```javascript
+// Import required dependencies
 import "dotenv/config";
 import { sendSms } from "sms-dispatch";
 
+// Main function to send SMS
 async function sendData() {
   try {
+    // Send SMS using your Android device as a gateway
     const result = await sendSms({
-      apiKey: process.env.TEXTBEE_KEY,
-      deviceId: process.env.TEXTBEE_DEVICE,
-      recipients: ["+1234567890"],
-      message: "Hello from TextBee!",
+      apiKey: process.env.TEXTBEE_KEY, // Your API key from the app
+      deviceId: process.env.TEXTBEE_DEVICE, // Your device ID
+      recipients: ["+1234567890"], // Phone numbers with country code
+      message: "Hello from TextBee!", // Your message content
     });
+
     console.log("Success:", result);
   } catch (error) {
     console.error("Error:", error.message);
@@ -64,7 +72,7 @@ TEXTBEE_KEY=your_api_key_here
 TEXTBEE_DEVICE=your_device_id_here
 ```
 
-**Important:** add `.env` to your `.gitignore` to keep credentials safe.
+**Important:** Add `.env` to your `.gitignore` to keep credentials safe.
 
 ## How It Works
 
@@ -76,8 +84,9 @@ TEXTBEE_DEVICE=your_device_id_here
 ## Pricing
 
 - **Free tier:** 50 SMS per day
-- **Upgrades:** available in-app for higher volumes  
-  No credit card required to start!
+- **Upgrades:** Available in-app for higher volumes
+
+No credit card required to start!
 
 ---
 
