@@ -1,6 +1,6 @@
 {
   "name": "sms-gateway",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send SMS messages programmatically using your Android phone as a gateway.",
   "main": "index.js",
   "type": "module",
