@@ -1,13 +1,14 @@
 {
   "name": "sms-dispatch",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "keywords": [
     "sms",
+    "sms-templates",
     "gateway",
     "sms-gateway",
     "sms-dispatch",
@@ -19,12 +20,27 @@
     "vonage",
     "plivo",
     "notification",
-    "nodejs"
+    "nodejs",
+    "textbee",
+    "otp",
+    "ready-made-templates",
+    "android-gateway"
   ],
   "author": "Dhruvil Mistry",
   "license": "ISC",
-  "description": "",
+  "description": "Send SMS with 47+ ready-made templates using your Android phone as a gateway. Includes OTP, appointments, payments, promotions & more!",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhruvil0203/sms-gateway"
+  },
+  "homepage": "https://github.com/dhruvil0203/sms-gateway#readme",
+  "bugs": {
+    "url": "https://github.com/dhruvil0203/sms-gateway/issues"
+  },
   "dependencies": {
     "axios": "^1.13.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
