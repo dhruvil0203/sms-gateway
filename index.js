@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE = process.env.BASE;
+const BASE = "https://api.textbee.dev/api/v1";
 
 export async function sendSms({
   apiKey,

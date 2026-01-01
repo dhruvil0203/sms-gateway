@@ -32,34 +32,36 @@ Download the TextBee.dev APK from [https://textbee.dev](https://textbee.dev) and
 
 ## Usage
 
-```javascript
+```javascript`
 import "dotenv/config";
-import { sendSms } from "textbee-sms-js";
+import { sendSms } from "sms-gateway";
 
 async function sendData() {
-  try {
-    const result = await sendSms({
-      apiKey: process.env.TEXTBEE_KEY,
-      deviceId: process.env.TEXTBEE_DEVICE,
-      recipients: ["+1234567890"],
-      message: "Hello from TextBee!",
-    });
+try {
+const result = await sendSms({
+apiKey: process.env.TEXTBEE_KEY,
+deviceId: process.env.TEXTBEE_DEVICE,
+recipients: ["+1234567890"],
+message: "Hello from TextBee!",
+});
 
     console.log("Success:", result);
-  } catch (error) {
-    console.error("Error:", error.message);
-  }
+
+} catch (error) {
+console.error("Error:", error.message);
+}
 }
 
 sendData();
-```
+
+````
 
 Create a `.env` file:
 
 ```env
 TEXTBEE_KEY=your_api_key_here
 TEXTBEE_DEVICE=your_device_id_here
-```
+````
 
 **Important:** Add `.env` to your `.gitignore` to keep your credentials secure.
 
