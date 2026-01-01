@@ -5,7 +5,7 @@ Send SMS messages programmatically using your Android phone as a gateway with **
 [![npm version](https://img.shields.io/npm/v/sms-dispatch.svg)](https://www.npmjs.com/package/sms-dispatch)
 [![npm downloads](https://img.shields.io/npm/dm/sms-dispatch.svg)](https://www.npmjs.com/package/sms-dispatch)
 
-## ✨ What's New in v1.1
+## ✨ What's New in v1.1.2
 
 - 🎉 **Almost 50 Ready-Made Templates** - Birthday wishes, OTP, appointments, promotions & more!
 - 🚀 **Simple to Use** - Just provide template name and variables
