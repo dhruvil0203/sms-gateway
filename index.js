@@ -1,5 +1,5 @@
 import axios from "axios";
-import templates from "./templates.json" assert { type: "json" };
+import templates from "./template.json" with { type: "json" };
 
 const BASE = "https://api.textbee.dev/api/v1";
 
